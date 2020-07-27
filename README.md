@@ -1,1 +1,1 @@
-TinDog Starting Files
+TinDog - a paradoy of tinder for dogs
