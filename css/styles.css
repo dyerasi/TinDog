@@ -1,75 +1,6 @@
-
-/*id*/
-#title{
-  background-color: #ff4c68;
-  color: white;
-}
-
-
-/*classes*/
-.container-fluid{
-  padding: 3% 15% 7%;
-}
-
-
-
-/* Navbar */
-.navbar-brand{
-  font-size: 2.5rem;
-  font-family: "Ubuntu", sans-serif;
-  font-weight: bold;
-}
-
-.navbar{
-  padding-left: 0;
-  padding-bottom: 4.5rem;
-}
-
-.nav-item{
-  padding: 0 18px;
-}
-
-.nav-link{
-  font-size: 1.2rem;
-  font-style: 'Montserrat', sans-serif;
-}
-
-/* Buttons */
-.download-button{
-  margin: 5% 3% 5% 0;
-}
-
-/* Images */
-.mock-img{
-  transform: rotate(25deg);
-  width: 60%;
-  position: absolute;
-  right: 30%;
-}
-
-/* Features */
-#features{
-  text-align: center;
-  padding: 7% 15%;
-  background-color: #fff;
-  position: relative;
-}
-.info-icon{
-  color: #ef8172;
-  padding-bottom: 10px;
-}
-.info-icon:hover{
-  color: #ff4c68;
-}
-.feature-column{
-  padding: 29px 0;
-}
-
-.sub-text{
-  width: 70%;
-}
-
+/*     */
 /*parts*/
+/*     */
 body{
   font-family: 'Montserrat', sans-serif;
 }
@@ -100,7 +31,79 @@ p{
 }
 
 
+/*         */
+/* Heading */
+/*         */
+#title{
+  background-color: #ff4c68;
+  color: white;
+}
+
+.container-fluid{
+  padding: 3% 15% 7%;
+}
+
+.download-button{
+  margin: 5% 3% 5% 0;
+}
+
+.mock-img{
+  transform: rotate(25deg);
+  width: 60%;
+  position: absolute;
+  right: 30%;
+}
+
+/*        */
+/* Navbar */
+/*        */
+.navbar-brand{
+  font-size: 2.5rem;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: bold;
+}
+
+.navbar{
+  padding-left: 0;
+  padding-bottom: 4.5rem;
+}
+
+.nav-item{
+  padding: 0 18px;
+}
+
+.nav-link{
+  font-size: 1.2rem;
+  font-style: 'Montserrat', sans-serif;
+}
+
+
+/*          */
+/* Features */
+/*          */
+#features{
+  text-align: center;
+  padding: 7% 15%;
+  background-color: #fff;
+  position: relative;
+}
+.info-icon{
+  color: #ef8172;
+  padding-bottom: 10px;
+}
+.info-icon:hover{
+  color: #ff4c68;
+}
+.feature-column{
+  padding: 29px 0;
+}
+.sub-text{
+  width: 70%;
+}
+
+/*                     */
 /* Testimonial section */
+/*                     */
 #testimonials{
   text-align: center;
   background-color: #ef8172;
@@ -128,7 +131,10 @@ p{
   padding: 7% 15%;
 }
 
+
+/*         */
 /* Pricing */
+/*         */
 #pricing{
   padding: 100px;
   text-align: center;
@@ -146,7 +152,10 @@ p{
   line-height: 2;
 }
 
+
+/*                */
 /* Call to Action */
+/*                */
 #cta{
   background-color: #ff4c68;
   padding: 3% 5% 5%;
@@ -168,7 +177,11 @@ p{
   margin: 30px 15px 10px;
 }
 
+
+
+/*        */
 /* Footer */
+/*        */
 .social-icon{
   display: inline-block;
   padding: 10px 10px 20px;
@@ -179,7 +192,11 @@ p{
   padding: 3% 0 1%;
 }
 
+
+
+/*        */
 /* MOBILE */
+/*        */
 @media (max-width:990px){
   .mock-img{
     position: static;
